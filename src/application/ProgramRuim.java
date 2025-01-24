@@ -5,9 +5,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-import model.entities.Reservation;
+import model.entities.ReservationRuim;
 
-public class Program {
+public class ProgramRuim {
 
 	public static void main(String[] args) throws ParseException {
 
@@ -25,7 +25,7 @@ public class Program {
 			System.out.println("Error in reservation: check-out date must be after check-in date");
 		}
 		else {
-			Reservation reservation = new Reservation(number, checkIn, checkOut);
+			ReservationRuim reservation = new ReservationRuim(number, checkIn, checkOut);
 			System.out.println("Reservation:: " + reservation);
 			
 			System.out.println();

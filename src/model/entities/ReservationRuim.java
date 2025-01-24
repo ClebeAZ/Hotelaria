@@ -4,13 +4,13 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-public class Reservation {
+public class ReservationRuim {
 
 	private Integer RoomNumber;
 	private Date checkIn;
 	private Date checkOut;
 	
-	public Reservation(Integer roomNumber, Date checkIn, Date checkOut) {
+	public ReservationRuim(Integer roomNumber, Date checkIn, Date checkOut) {
 
 		RoomNumber = roomNumber;
 		this.checkIn = checkIn;
