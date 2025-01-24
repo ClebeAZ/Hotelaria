@@ -4,3 +4,5 @@ mais bagunçado e difícil de prestar assistência.
 No segundo, está mais organizado, porém ainda a lógica na classe principal fazendo com que isso possa dificultar a manutenção do código.
 No terceiro, a lógica foi inteiramente para classe secundária onde poderá ser prestado a manutenção do código sem interfir com a classe principal, 
 para assim ser possível adicionar quantas chamadas de exceções e soluções para estas exceções for necessária.
+
+OS CÓDIGOS ESTÃO DISPONIVEIS NA MASTER.
